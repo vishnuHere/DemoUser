@@ -1,0 +1,16 @@
+.create-container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 1rem;
+  margin: 5% 30%;
+
+  &__nameContainer{
+    display: flex;
+    justify-content: space-between;
+
+    >div:first-child{
+      width: 100px;
+    }
+
+  }
+}

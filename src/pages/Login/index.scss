@@ -1,0 +1,23 @@
+
+
+.login {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, #398fc7, #2ca340);
+
+
+    &__container{
+        box-shadow: 1px 5px 5px #c9c9c9;
+        background-color: white;
+        border-radius: 20px;;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 60%;
+        position: absolute;
+        top: 23%;
+        left: 35%;
+    }
+}
